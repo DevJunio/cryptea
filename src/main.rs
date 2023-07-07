@@ -12,16 +12,6 @@ fn main() {
 
             cfg.file_path = sub_matches
                 .get_one::<PathBuf>("file")
-                .expect("file path")
-                .to_owned();
-
-            cfg.hash_value = sub_matches
-                .get_one::<String>("hash")
-                .expect("hash value")
-                .to_owned();
-
-            cfg.hash_type = get_custom_type(sub_matches);
-
             Hash::search(cfg);
         }
         Some(("parse", sub_matches)) => {

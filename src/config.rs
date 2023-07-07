@@ -27,5 +27,4 @@ impl Config {
     }
     pub fn get_hash_type(&self) -> Hash {
         self.hash_type.clone()
-    }
 }
