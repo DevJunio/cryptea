@@ -1,5 +1,5 @@
 <div align="center">
-<h1>Cryptea</h1>
+<h1>Cryptea 🫖</h1>
 <img src="https://i.imgur.com/ycviuQh.png" alt="cryptea icon" width="200"/>
 <p>
 Cryptea is a SHA1 hash cracker that attempts to find the original password from a given SHA1 hash and a wordlist.<br>
